@@ -1,0 +1,100 @@
+#paragraph1{
+	font-style: italic;
+	font-size:20px;
+	color:darkblue;
+	text-align: center;
+}
+
+.head1{
+	background-color:#c7ffdb85;
+    border:4px double blue;
+}
+
+#paragraph2{
+	font-family: Verdana, sans-serif;
+   font-size: 15px;
+   color: blue;
+   text-align: justify-all;
+}
+
+
+h2{
+	color:magenta;
+}
+
+input {
+  accent-color: green;
+}
+
+
+.container{
+ 	overflow: hidden;
+ 	box-sizing: border-box;
+ }
+.red{
+	width: 33.33%;
+	height: 100px;
+	background-color: red;
+	float: left;
+}
+.lavender{
+	width: 33.33%;
+	height: 100px;
+	background-color: lavender;
+	float:left;
+}
+.hotpink{
+	width: 33.33%;
+	height: 100px;
+	background-color: hotpink;
+	float: left;
+}
+
+
+table,td,th{
+	border:2px double;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+  }
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+table{
+	width: 100%;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {background-color: lightgrey;}
+th{
+	background-color: skyblue;
+	color:white;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
